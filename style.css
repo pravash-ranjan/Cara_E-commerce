@@ -134,7 +134,7 @@ body{
 
 /* Home Page */
 #hero{
-    background-image: url("img/hero4.png");
+    background-image: url("img/hero\ image.jpeg");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -1242,4 +1242,25 @@ footer .copyright{
         width: 100%;
         padding: 20px;
     }
+}
+
+/* Styles for the Invoice Download Button */
+.invoice-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.invoice-section .btn {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.invoice-section .btn:hover {
+    background-color: #ff3f2e;
 }
